@@ -66,14 +66,14 @@
 .donate-amount {
     display: flex;
     gap: 20px;
-    margin: 0px 300px;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
 .donate-money {
     text-align: center;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 30px;
     margin-bottom: 20px;
     background: #FFFFFF;
@@ -121,4 +121,16 @@ hr {
 }
 .plan-description{
     color: #757575;
+}
+.plan-2{
+    background-color: #ffc9a3;
+}
+.donate-money:hover{
+    background-color: #ffb784;
+}
+.plan-3{
+    background-color: rgb(127, 184, 249);
+}
+.plan-4{
+    background-color: #bbfe8d;
 }
